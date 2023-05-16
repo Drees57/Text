@@ -1,0 +1,106 @@
+header {
+    height: 220px;
+    background-color: #c3cfff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+header > h1 {
+    font-size: 100px;
+    color: #f6f8f7;
+    font-weight: 700
+    ;
+}
+body{
+    font-family: monospace;
+}
+p{
+    font-size: 20px;
+}
+.nav{
+    background-color: #b05a00;
+}
+.button {
+    background-color: #b05a00; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 300%;
+    transition-duration: 0.4s;
+    margin-left: 10%;
+  }
+
+.button:hover {
+    background-color: #f6f8f7;
+    color: #b05a00;
+    cursor: pointer;
+}
+#Colors{
+    border-bottom: solid 2px gray;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 600;
+}
+h3{
+    font-size: 30px;
+}
+div{
+    display: block;
+}
+.color-panel{
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+.purple{
+    background-color: #c3cfff;
+}
+.brown{
+    background-color:#b05a00;
+}
+.white{
+    background-color: #f6f8f7;
+}
+
+#Fonts{
+    border-bottom: solid 2px gray;
+}
+.Font-box{
+    display: inline-block;
+    margin-right: 50px;
+    width: 550px;
+}
+.Font-name{
+    text-decoration: underline;
+    font-size: 30px;
+}
+.Raleway{
+    font-family: Raleway;
+}
+.Noto-Sans{
+    font-family: Noto Sans;
+}
+.Rubik{
+    font-family: Rubik;
+}
+.Regular{
+    font-size: 20px;
+}
+.Italic{
+    font-size: 20px;
+    font-style: italic;
+}
+.Bold{
+    font-size: 20px;
+    font-weight: bold;
+}
+li{
+    font-size: 20px;
+}
